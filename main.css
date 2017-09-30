@@ -1,0 +1,19 @@
+body {
+  background-color: #000;
+  color: #f5f5f5;
+  font-family: monospace;
+}
+
+p {
+  display: inline-block;
+  font-size: 100px;
+}
+
+p:hover {
+  filter: blur(1rem);
+  transition: all 2.5s ease-in-out;
+}
+
+::selection {
+  background-color: #fff;
+}
